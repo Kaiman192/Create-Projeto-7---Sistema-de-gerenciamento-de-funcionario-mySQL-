@@ -1,0 +1,46 @@
+# Sistema de Gestão de Funcionários
+
+Este projeto é um sistema básico de gestão de funcionários desenvolvido em SQL. O sistema gerencia os dados de funcionários, seus departamentos e históricos de salários, permitindo operações de CRUD (Criar, Ler, Atualizar e Deletar).
+
+## Estrutura do Sistema
+
+O sistema possui três tabelas principais:
+- **Departamentos**: Armazena os diferentes departamentos da empresa.
+- **Funcionários**: Registra informações dos funcionários, incluindo cargo, salário e departamento.
+- **Salários**: Registra o histórico de salários dos funcionários ao longo do tempo.
+
+## Funcionalidades
+
+- **Departamentos**: Criar, visualizar, atualizar e remover departamentos.
+- **Funcionários**: Adicionar, consultar, atualizar e remover funcionários.
+- **Salários**: Registrar e consultar o histórico salarial dos funcionários.
+
+### Operações Principais
+
+1. **Criar e popular o banco de dados**: Configurar as tabelas de departamentos, funcionários e salários.
+2. **Inserir dados**: Adicionar funcionários, departamentos e registrar salários.
+3. **Consultas**: 
+    - Consultar funcionários e seus departamentos.
+    - Calcular o salário total por departamento.
+    - Verificar o histórico salarial de funcionários específicos.
+4. **Atualizações**: Ajustar salários de funcionários e nomes de departamentos.
+5. **Deleções**: Remover funcionários ou departamentos (com restrições).
+
+### Requisitos
+
+- **MySQL** ou outro banco de dados SQL compatível.
+- Ferramentas de gerenciamento de banco de dados, como **MySQL Workbench** ou **DBeaver**.
+
+### Como Executar
+
+1. Clone o repositório ou copie o código SQL.
+2. Execute o script SQL no seu ambiente de banco de dados.
+3. Ajuste conforme necessário para o seu ambiente ou dados reais.
+
+### Licença
+
+Este projeto está licenciado sob a licença MIT. Para mais informações, veja o arquivo [LICENSE](./LICENSE).
+
+### Autor
+
+Desenvolvido por [Seu Nome].
